@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #1F2937;
+}
+
+#terms-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    width: 400px;
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+  
+
+h1 {
+    text-align: center;
+}
+
+.terms {
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #FBBF24;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+#agreeBtn {
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #terms-container {
+        padding: 20px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+body {
+    transition: background-color 0.5s ease;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  #congratsMessage {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: white;
+    color: green;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    z-index: 10;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #confettiCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 100vw;
+    height: 100vh;
+    z-index: 7;
+  }
+  
+  
